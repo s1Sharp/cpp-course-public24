@@ -62,7 +62,7 @@ int main() {
 
     // Проверка успешности умножения
     if (result == nullptr) {
-        cerr << "Ошибка: Размерности матриц не подходят для умножения." << endl;
+        cerr << "Error: Incompatible matrix dimensions." << endl;
 
         // Освобождение ресурсов
         delMatrix(matrixA, rowsA);
