@@ -1,52 +1,88 @@
 #include <iostream>
 
-const int mSize = 3;
-
-int matrix_sum(int m[mSize][mSize]) // int**
-{
-    int sum = 0;
-    for (int i = 0; i < mSize; i++) {
-        for (int j = 0; j < mSize; j++) {
-            sum += m[i][j];
+using namespace std;
+//Умножение матриц
+int** multMatrix(int** matrixA, int rowsA, int colsA, int** matrixB, int rowsB, int colsB){
+    if (colsA != rowsB) {
+        return nullptr;
+    }
+    //Выделение памяти для итоговой динамической матрицы
+    int** result = new int*[rowsA];
+    for (int i = 0; i < rowsA; i++) {
+        result[i] = new int[colsB]{0};
+    }
+    //Умножение матриц
+    for (int i = 0; i < rowsA; i++) {
+        for (int j = 0; j < colsB; j++) {
+            for (int k = 0; k < colsA; k++) {
+                result[i][j] += matrixA[i][k] * matrixB[k][j];
+            }
         }
     }
-    return sum;
+    return result;
+}
+//Освобождение пямяти матрицы
+void delMatrix(int** matrix, int rows) {
+    for (int i = 0; i < rows; i++) {
+        delete[] matrix[i];
+    }
+    delete[] matrix;
 }
 
+int main() {
+    int rowsA, colsA, rowsB, colsB;
+    //Первая матрица
+    cin >> rowsA >> colsA;
 
-void matrix_transpose(int m[mSize][mSize]) // int**
-{
-    for (int i = 0; i < mSize; i++) {
-        for (int j = i + 1; j < mSize; j++) {
-            std::swap(m[i][j], m[j][i]);
+    int** matrixA = new int*[rowsA];
+    for (int i = 0; i < rowsA; i++) {
+        matrixA[i] = new int[colsA];
+    }
+
+    for (int i = 0; i < rowsA; i++) {
+        for (int j = 0; j < colsA; j++) {
+            cin >> matrixA[i][j];
         }
     }
-}
+    //Вторая матрица
+    cin >> rowsB >> colsB;
 
-void matrix_print(int m[mSize][mSize]) // int**
-{
-    for (int i = 0; i < mSize; i++) {
-        for (int j = 0; j < mSize; j++) {
-            std::cout << m[i][j] << ' ';
-        }
-        std::cout << std::endl;
+    int** matrixB = new int*[rowsB];
+    for (int i = 0; i < rowsB; i++) {
+        matrixB[i] = new int[colsB];
     }
-}
 
-int main(int argc, char** argv)
-{
-    int m[mSize][mSize];
-    for (int i = 0; i < mSize; i++) {
-        for (int j = 0; j < mSize; j++) {
-            std::cin >> m[i][j];
+    for (int i = 0; i < rowsB; i++) {
+        for (int j = 0; j < colsB; j++) {
+            cin >> matrixB[i][j];
         }
     }
-    int matrixSum = matrix_sum(m);
 
-	std::cout << "square matrix sum = " << (matrixSum*matrixSum) << std::endl;
+    int** result = multMatrix(matrixA, rowsA, colsA, matrixB, rowsB, colsB);
 
-    matrix_transpose(m);
-    matrix_print(m);
+    // Проверка успешности умножения
+    if (result == nullptr) {
+        cerr << "Ошибка: Размерности матриц не подходят для умножения." << endl;
 
-	return 0;
+        // Освобождение ресурсов
+        delMatrix(matrixA, rowsA);
+        delMatrix(matrixB, rowsB);
+
+        return 1;
+    }
+
+    // Вывод результата
+    for (int i = 0; i < rowsA; i++) {
+        for (int j = 0; j < colsB; j++) {
+            cout << result[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    // Освобождение ресурсов
+    delMatrix(matrixA, rowsA);
+    delMatrix(matrixB, rowsB);
+    delMatrix(result, rowsA);
+
+    return 0;
 }
