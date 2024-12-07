@@ -48,5 +48,5 @@ int main(int argc, char** argv)
     matrix_transpose(m);
     matrix_print(m);
 
-	return 255;
+	return 25;
 }
