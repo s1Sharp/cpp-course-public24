@@ -73,7 +73,7 @@ List::remove_front()
     Node* temp = first;
     first = first->next;
 
-    if (first == nullptr) { // Если список стал пустым
+    if (first == nullptr) {
         last = nullptr;
     }
 
@@ -86,7 +86,7 @@ List::remove_back()
 {
     if (is_empty()) return;
 
-    if (first == last) { // Если в списке только один элемент
+    if (first == last) {
         delete first;
         first = last = nullptr;
         return;
@@ -118,7 +118,7 @@ List::remove(const Node* _node)
         current = current->next;
     }
 
-    if (current == nullptr) return false; // Не нашли элемент
+    if (current == nullptr) return false;
 
     if (last == _node) {
         last = current;
