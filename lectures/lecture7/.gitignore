@@ -1,0 +1,5 @@
+*.o
+*.a
+reader
+writer
+test.txt

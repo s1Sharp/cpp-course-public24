@@ -1,0 +1,37 @@
+name: Test task6
+
+on:
+  push:
+    paths:
+     - ".github/workflows/run_test_hw6.yaml"
+     - "tasks/task6/main.cpp"
+     - "tasks/task6/tests.py"
+  pull_request:
+    paths:
+     - ".github/workflows/run_test_hw6.yaml"
+     - "tasks/task6/main.cpp"
+     - "tasks/task6/tests.py"
+
+
+env:
+  TASK_DIR: ${{github.workspace}}/tasks/task6/
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Configure CMake
+      working-directory: ${{env.TASK_DIR}}
+      run: make config
+
+    - name: Build
+      working-directory: ${{env.TASK_DIR}}
+      run: make build
+
+    - name: Tests
+      working-directory: ${{env.TASK_DIR}}
+      run: make test
+      shell: bash

@@ -1,0 +1,37 @@
+name: Test additional task1
+
+on:
+  push:
+    paths:
+     - ".github/workflows/run_test_aw1.yaml"
+     - "tasks/additionalTask/wordCount/main.cpp"
+     - "tasks/additionalTask/wordCount/tests.py"
+  pull_request:
+    paths:
+     - ".github/workflows/run_test_aw1.yaml"
+     - "tasks/additionalTask/wordCount/main.cpp"
+     - "tasks/additionalTask/wordCount/tests.py"
+
+
+env:
+  TASK_DIR: ${{github.workspace}}/tasks/additionalTask/wordCount/
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Configure CMake
+      working-directory: ${{env.TASK_DIR}}
+      run: make config
+
+    - name: Build
+      working-directory: ${{env.TASK_DIR}}
+      run: make build
+
+    - name: Tests
+      working-directory: ${{env.TASK_DIR}}
+      run: make test
+      shell: bash
