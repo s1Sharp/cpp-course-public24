@@ -1,0 +1,43 @@
+name: Test task5
+
+on:
+  push:
+    paths:
+     - ".github/workflows/run_test_hw4.yaml"
+     - "tasks/task5/main.cpp"
+     - "tasks/task5/rectangle.h"
+     - "tasks/task5/file_reader_raii.h"
+  pull_request:
+    paths:
+     - ".github/workflows/run_test_hw4.yaml"
+     - "tasks/task5/main.cpp"
+     - "tasks/task5/rectangle.h"
+     - "tasks/task5/file_reader_raii.h"
+
+
+env:
+  TASK_DIR: ${{github.workspace}}/tasks/task5/
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Configure CMake
+      working-directory: ${{env.TASK_DIR}}
+      run: make config
+
+    - name: Build
+      working-directory: ${{env.TASK_DIR}}
+      run: make build
+
+    - name: Valgrind
+      run: sudo apt-get install -y valgrind
+      shell: bash
+
+    - name: Tests
+      working-directory: ${{env.TASK_DIR}}
+      run: make test
+      shell: bash
