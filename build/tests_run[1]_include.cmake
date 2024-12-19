@@ -1,0 +1,5 @@
+if(EXISTS "/workspaces/try.c-/build/tests_run[1]_tests.cmake")
+  include("/workspaces/try.c-/build/tests_run[1]_tests.cmake")
+else()
+  add_test(tests_run_NOT_BUILT tests_run_NOT_BUILT)
+endif()

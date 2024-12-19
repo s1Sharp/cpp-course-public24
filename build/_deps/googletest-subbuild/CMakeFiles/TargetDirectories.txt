@@ -1,0 +1,3 @@
+/workspaces/try.c-/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
+/workspaces/try.c-/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/workspaces/try.c-/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
