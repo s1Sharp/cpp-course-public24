@@ -1,9 +1,9 @@
 #include "list.h"
-
+#include <iostream>
 
 List::List()
 {
-
+  std::cout << "Hello Maxi^^ << std::endl;
 }
 
 
