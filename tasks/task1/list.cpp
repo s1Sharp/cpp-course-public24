@@ -23,8 +23,6 @@ List::clear()
     }
 }
 
-
-
 void
 List::push_front(int _val)
 {
@@ -61,7 +59,7 @@ List::find(int _val)
         }
         crnt = crnt->next;
     }
-     return nullptr;
+    return nullptr;
 }
 
 
@@ -107,14 +105,7 @@ List::remove(const Node* _node)
         return false;
     } else if (first == _node)
     {
-        Node* tmp = first;
-        first = first->next;
-        delete tmp;
-
-        if (first == nullptr) {
-            last = nullptr;
-        }
-
+        remove_front();
         return true;
     }
     
