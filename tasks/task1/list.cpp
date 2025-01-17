@@ -10,7 +10,7 @@ List::List()
 bool
 List::is_empty()
 {
-
+  return true;
 }
 
 
