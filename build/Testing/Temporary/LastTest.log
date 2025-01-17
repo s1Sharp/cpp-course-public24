@@ -1,0 +1,237 @@
+Start testing: Jan 17 20:24 UTC
+----------------------------------------------------------
+1/9 Testing: CustomList.CheckDefaultConstructor
+1/9 Test: CustomList.CheckDefaultConstructor
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.CheckDefaultConstructor" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomList.CheckDefaultConstructor" start time: Jan 17 20:24 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomList.CheckDefaultConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomList
+[ RUN      ] CustomList.CheckDefaultConstructor
+[       OK ] CustomList.CheckDefaultConstructor (0 ms)
+[----------] 1 test from CustomList (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomList.CheckDefaultConstructor" end time: Jan 17 20:24 UTC
+"CustomList.CheckDefaultConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/9 Testing: CustomList.Check_clear
+2/9 Test: CustomList.Check_clear
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_clear" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomList.Check_clear" start time: Jan 17 20:24 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomList.Check_clear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomList
+[ RUN      ] CustomList.Check_clear
+[       OK ] CustomList.Check_clear (0 ms)
+[----------] 1 test from CustomList (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomList.Check_clear" end time: Jan 17 20:24 UTC
+"CustomList.Check_clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/9 Testing: CustomList.Check_is_empty
+3/9 Test: CustomList.Check_is_empty
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_is_empty" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomList.Check_is_empty" start time: Jan 17 20:24 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomList.Check_is_empty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomList
+[ RUN      ] CustomList.Check_is_empty
+[       OK ] CustomList.Check_is_empty (0 ms)
+[----------] 1 test from CustomList (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomList.Check_is_empty" end time: Jan 17 20:24 UTC
+"CustomList.Check_is_empty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/9 Testing: CustomList.Check_find
+4/9 Test: CustomList.Check_find
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_find" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomList.Check_find" start time: Jan 17 20:24 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomList.Check_find
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomList
+[ RUN      ] CustomList.Check_find
+[       OK ] CustomList.Check_find (0 ms)
+[----------] 1 test from CustomList (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomList.Check_find" end time: Jan 17 20:24 UTC
+"CustomList.Check_find" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/9 Testing: CustomList.Check_push_front
+5/9 Test: CustomList.Check_push_front
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_push_front" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomList.Check_push_front" start time: Jan 17 20:24 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomList.Check_push_front
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomList
+[ RUN      ] CustomList.Check_push_front
+[       OK ] CustomList.Check_push_front (0 ms)
+[----------] 1 test from CustomList (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomList.Check_push_front" end time: Jan 17 20:24 UTC
+"CustomList.Check_push_front" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/9 Testing: CustomList.Check_push_back
+6/9 Test: CustomList.Check_push_back
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_push_back" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomList.Check_push_back" start time: Jan 17 20:24 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomList.Check_push_back
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomList
+[ RUN      ] CustomList.Check_push_back
+[       OK ] CustomList.Check_push_back (0 ms)
+[----------] 1 test from CustomList (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomList.Check_push_back" end time: Jan 17 20:24 UTC
+"CustomList.Check_push_back" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/9 Testing: CustomList.Check_remove_front
+7/9 Test: CustomList.Check_remove_front
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_remove_front" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomList.Check_remove_front" start time: Jan 17 20:24 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomList.Check_remove_front
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomList
+[ RUN      ] CustomList.Check_remove_front
+[       OK ] CustomList.Check_remove_front (0 ms)
+[----------] 1 test from CustomList (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomList.Check_remove_front" end time: Jan 17 20:24 UTC
+"CustomList.Check_remove_front" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/9 Testing: CustomList.Check_remove_back
+8/9 Test: CustomList.Check_remove_back
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_remove_back" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomList.Check_remove_back" start time: Jan 17 20:24 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomList.Check_remove_back
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomList
+[ RUN      ] CustomList.Check_remove_back
+[       OK ] CustomList.Check_remove_back (0 ms)
+[----------] 1 test from CustomList (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomList.Check_remove_back" end time: Jan 17 20:24 UTC
+"CustomList.Check_remove_back" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/9 Testing: CustomList.Check_remove
+9/9 Test: CustomList.Check_remove
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_remove" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomList.Check_remove" start time: Jan 17 20:24 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomList.Check_remove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomList
+[ RUN      ] CustomList.Check_remove
+[       OK ] CustomList.Check_remove (0 ms)
+[----------] 1 test from CustomList (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomList.Check_remove" end time: Jan 17 20:24 UTC
+"CustomList.Check_remove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 17 20:24 UTC

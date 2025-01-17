@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/tests_run.dir/list_internal.cpp.o CMakeFiles/tests_run.dir/list.cpp.o CMakeFiles/tests_run.dir/tests/test_main.cpp.o CMakeFiles/tests_run.dir/tests/test_list.cpp.o  -o tests_run  lib/libgtest.a lib/libgtest_main.a lib/libgtest.a -lpthread 
