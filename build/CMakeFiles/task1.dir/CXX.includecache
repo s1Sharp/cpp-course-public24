@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/cpp-course-public24/tasks/task1/list.cpp
+list.h
+/workspaces/cpp-course-public24/tasks/task1/list.h
+iostream
+-
+
+/workspaces/cpp-course-public24/tasks/task1/list.h
+

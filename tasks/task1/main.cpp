@@ -1,24 +1,38 @@
+#include <iostream>
 #include "list.h"
 
-#include "iostream"
+int main() {
+    List list;
 
-int main()
-{
-    List l;
-    std::cout << l.is_empty() << std::endl;
-    l.push_back(4);
-    l.push_back(123);
-    l.push_back(89);
-    l.print();
-    std::cout << l.is_empty() << std::endl;
-    const Node* to_del= l.find(123);
-    l.remove(to_del);
-    l.print();
-    l.push_back(1234);
-    l.remove_front();
-    l.print();
-    l.remove_back();
-    l.print();
-    std::cout << l[0]->val << std::endl;
+    
+    list.push_front(10);
+    list.push_back(20);
+    list.push_front(5);
+
+    
+    std::cout << "Initial list: ";
+    list.print();
+
+    
+    Node* found = list.find(10);
+    if (found) {
+        std::cout << "Found value: " << found->val << std::endl;
+    }
+
+    
+    list.remove_front();
+    std::cout << "After removing front: ";
+    list.print();
+
+    
+    list.remove_back();
+    std::cout << "After removing back: ";
+    list.print();
+
+    
+    list.clear();
+    std::cout << "After clearing the list: ";
+    list.print();
+
     return 0;
 }

@@ -1,0 +1,10 @@
+CustomList.CheckDefaultConstructor 6 0.000369352
+CustomList.Check_clear 6 0.000394358
+CustomList.Check_is_empty 6 0.000450761
+CustomList.Check_find 6 0.000393171
+CustomList.Check_push_front 6 0.000387151
+CustomList.Check_push_back 6 0.000354439
+CustomList.Check_remove_front 6 0.000492432
+CustomList.Check_remove_back 6 0.000650248
+CustomList.Check_remove 6 0.000501083
+---
