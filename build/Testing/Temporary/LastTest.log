@@ -1,10 +1,10 @@
-Start testing: Jan 17 22:17 UTC
+Start testing: Jan 18 04:59 UTC
 ----------------------------------------------------------
 1/9 Testing: CustomList.CheckDefaultConstructor
 1/9 Test: CustomList.CheckDefaultConstructor
 Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.CheckDefaultConstructor" "--gtest_also_run_disabled_tests"
 Directory: /workspaces/cpp-course-public24/build
-"CustomList.CheckDefaultConstructor" start time: Jan 17 22:17 UTC
+"CustomList.CheckDefaultConstructor" start time: Jan 18 04:59 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CustomList.CheckDefaultConstructor
@@ -19,10 +19,10 @@ Note: Google Test filter = CustomList.CheckDefaultConstructor
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CustomList.CheckDefaultConstructor" end time: Jan 17 22:17 UTC
+"CustomList.CheckDefaultConstructor" end time: Jan 18 04:59 UTC
 "CustomList.CheckDefaultConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/9 Test: CustomList.Check_clear
 Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_clear" "--gtest_also_run_disabled_tests"
 Directory: /workspaces/cpp-course-public24/build
-"CustomList.Check_clear" start time: Jan 17 22:17 UTC
+"CustomList.Check_clear" start time: Jan 18 04:59 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CustomList.Check_clear
@@ -48,7 +48,7 @@ Note: Google Test filter = CustomList.Check_clear
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CustomList.Check_clear" end time: Jan 17 22:17 UTC
+"CustomList.Check_clear" end time: Jan 18 04:59 UTC
 "CustomList.Check_clear" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -56,7 +56,7 @@ Test Passed.
 3/9 Test: CustomList.Check_is_empty
 Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_is_empty" "--gtest_also_run_disabled_tests"
 Directory: /workspaces/cpp-course-public24/build
-"CustomList.Check_is_empty" start time: Jan 17 22:17 UTC
+"CustomList.Check_is_empty" start time: Jan 18 04:59 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CustomList.Check_is_empty
@@ -74,7 +74,7 @@ Note: Google Test filter = CustomList.Check_is_empty
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CustomList.Check_is_empty" end time: Jan 17 22:17 UTC
+"CustomList.Check_is_empty" end time: Jan 18 04:59 UTC
 "CustomList.Check_is_empty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -82,7 +82,7 @@ Test Passed.
 4/9 Test: CustomList.Check_find
 Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_find" "--gtest_also_run_disabled_tests"
 Directory: /workspaces/cpp-course-public24/build
-"CustomList.Check_find" start time: Jan 17 22:17 UTC
+"CustomList.Check_find" start time: Jan 18 04:59 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CustomList.Check_find
@@ -100,7 +100,7 @@ Note: Google Test filter = CustomList.Check_find
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CustomList.Check_find" end time: Jan 17 22:17 UTC
+"CustomList.Check_find" end time: Jan 18 04:59 UTC
 "CustomList.Check_find" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -108,7 +108,7 @@ Test Passed.
 5/9 Test: CustomList.Check_push_front
 Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_push_front" "--gtest_also_run_disabled_tests"
 Directory: /workspaces/cpp-course-public24/build
-"CustomList.Check_push_front" start time: Jan 17 22:17 UTC
+"CustomList.Check_push_front" start time: Jan 18 04:59 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CustomList.Check_push_front
@@ -126,7 +126,7 @@ Note: Google Test filter = CustomList.Check_push_front
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CustomList.Check_push_front" end time: Jan 17 22:17 UTC
+"CustomList.Check_push_front" end time: Jan 18 04:59 UTC
 "CustomList.Check_push_front" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -134,7 +134,7 @@ Test Passed.
 6/9 Test: CustomList.Check_push_back
 Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_push_back" "--gtest_also_run_disabled_tests"
 Directory: /workspaces/cpp-course-public24/build
-"CustomList.Check_push_back" start time: Jan 17 22:17 UTC
+"CustomList.Check_push_back" start time: Jan 18 04:59 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CustomList.Check_push_back
@@ -152,7 +152,7 @@ Note: Google Test filter = CustomList.Check_push_back
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CustomList.Check_push_back" end time: Jan 17 22:17 UTC
+"CustomList.Check_push_back" end time: Jan 18 04:59 UTC
 "CustomList.Check_push_back" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -160,7 +160,7 @@ Test Passed.
 7/9 Test: CustomList.Check_remove_front
 Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_remove_front" "--gtest_also_run_disabled_tests"
 Directory: /workspaces/cpp-course-public24/build
-"CustomList.Check_remove_front" start time: Jan 17 22:17 UTC
+"CustomList.Check_remove_front" start time: Jan 18 04:59 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CustomList.Check_remove_front
@@ -178,7 +178,7 @@ Note: Google Test filter = CustomList.Check_remove_front
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CustomList.Check_remove_front" end time: Jan 17 22:17 UTC
+"CustomList.Check_remove_front" end time: Jan 18 04:59 UTC
 "CustomList.Check_remove_front" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -186,7 +186,7 @@ Test Passed.
 8/9 Test: CustomList.Check_remove_back
 Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_remove_back" "--gtest_also_run_disabled_tests"
 Directory: /workspaces/cpp-course-public24/build
-"CustomList.Check_remove_back" start time: Jan 17 22:17 UTC
+"CustomList.Check_remove_back" start time: Jan 18 04:59 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CustomList.Check_remove_back
@@ -204,7 +204,7 @@ Note: Google Test filter = CustomList.Check_remove_back
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CustomList.Check_remove_back" end time: Jan 17 22:17 UTC
+"CustomList.Check_remove_back" end time: Jan 18 04:59 UTC
 "CustomList.Check_remove_back" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -212,7 +212,7 @@ Test Passed.
 9/9 Test: CustomList.Check_remove
 Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomList.Check_remove" "--gtest_also_run_disabled_tests"
 Directory: /workspaces/cpp-course-public24/build
-"CustomList.Check_remove" start time: Jan 17 22:17 UTC
+"CustomList.Check_remove" start time: Jan 18 04:59 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CustomList.Check_remove
@@ -230,8 +230,8 @@ Note: Google Test filter = CustomList.Check_remove
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CustomList.Check_remove" end time: Jan 17 22:17 UTC
+"CustomList.Check_remove" end time: Jan 18 04:59 UTC
 "CustomList.Check_remove" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jan 17 22:17 UTC
+End testing: Jan 18 04:59 UTC
