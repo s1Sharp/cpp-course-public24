@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/task1.dir/main.cpp.o CMakeFiles/task1.dir/list_internal.cpp.o CMakeFiles/task1.dir/list.cpp.o  -o task1 

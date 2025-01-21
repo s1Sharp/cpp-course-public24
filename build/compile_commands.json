@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/workspaces/try.c-/build",
+  "command": "/usr/bin/g++   -I/workspaces/try.c-/tasks/task1 -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest/include -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest  -g   -std=gnu++17 -o CMakeFiles/tests_run.dir/list_internal.cpp.o -c /workspaces/try.c-/tasks/task1/list_internal.cpp",
+  "file": "/workspaces/try.c-/tasks/task1/list_internal.cpp"
+},
+{
+  "directory": "/workspaces/try.c-/build",
+  "command": "/usr/bin/g++   -I/workspaces/try.c-/tasks/task1 -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest/include -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest  -g   -std=gnu++17 -o CMakeFiles/tests_run.dir/list.cpp.o -c /workspaces/try.c-/tasks/task1/list.cpp",
+  "file": "/workspaces/try.c-/tasks/task1/list.cpp"
+},
+{
+  "directory": "/workspaces/try.c-/build",
+  "command": "/usr/bin/g++   -I/workspaces/try.c-/tasks/task1 -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest/include -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest  -g   -std=gnu++17 -o CMakeFiles/tests_run.dir/tests/test_main.cpp.o -c /workspaces/try.c-/tasks/task1/tests/test_main.cpp",
+  "file": "/workspaces/try.c-/tasks/task1/tests/test_main.cpp"
+},
+{
+  "directory": "/workspaces/try.c-/build",
+  "command": "/usr/bin/g++   -I/workspaces/try.c-/tasks/task1 -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest/include -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest  -g   -std=gnu++17 -o CMakeFiles/tests_run.dir/tests/test_list.cpp.o -c /workspaces/try.c-/tasks/task1/tests/test_list.cpp",
+  "file": "/workspaces/try.c-/tasks/task1/tests/test_list.cpp"
+},
+{
+  "directory": "/workspaces/try.c-/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/task1.dir/main.cpp.o -c /workspaces/try.c-/tasks/task1/main.cpp",
+  "file": "/workspaces/try.c-/tasks/task1/main.cpp"
+},
+{
+  "directory": "/workspaces/try.c-/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/task1.dir/list_internal.cpp.o -c /workspaces/try.c-/tasks/task1/list_internal.cpp",
+  "file": "/workspaces/try.c-/tasks/task1/list_internal.cpp"
+},
+{
+  "directory": "/workspaces/try.c-/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/task1.dir/list.cpp.o -c /workspaces/try.c-/tasks/task1/list.cpp",
+  "file": "/workspaces/try.c-/tasks/task1/list.cpp"
+},
+{
+  "directory": "/workspaces/try.c-/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++   -isystem /workspaces/try.c-/build/_deps/googletest-src/googlemock/include -isystem /workspaces/try.c-/build/_deps/googletest-src/googlemock -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest/include -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /workspaces/try.c-/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/workspaces/try.c-/build/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/workspaces/try.c-/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++   -I/workspaces/try.c-/build/_deps/googletest-src/googlemock/include -I/workspaces/try.c-/build/_deps/googletest-src/googlemock -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest/include -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /workspaces/try.c-/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/workspaces/try.c-/build/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/workspaces/try.c-/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++   -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest/include -isystem /workspaces/try.c-/build/_deps/googletest-src/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /workspaces/try.c-/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/workspaces/try.c-/build/_deps/googletest-src/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/workspaces/try.c-/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++   -I/workspaces/try.c-/build/_deps/googletest-src/googletest/include -I/workspaces/try.c-/build/_deps/googletest-src/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /workspaces/try.c-/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/workspaces/try.c-/build/_deps/googletest-src/googletest/src/gtest-all.cc"
+}
+]
