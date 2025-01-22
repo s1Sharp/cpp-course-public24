@@ -72,7 +72,7 @@ List::find(int _val)
         }
 
         currentVal = currentVal -> next;
-        
+
     }
 
     return nullptr;
@@ -137,23 +137,23 @@ List::remove(const Node* _node)
     }
 
     Node* currentVal = first;
-    while (currentVal -> next && currentVal -> next != _node)
+    while (currentVal -> next != nullptr)
     {
-        currentVal = currentVal -> next;
-    }
-
-    if (currentVal -> next == _node)
-    {
-        Node* temp = currentVal -> next;
-        currentVal -> next = temp -> next;
-
-        if (temp == last)
+        if (currentVal -> next == _node)
         {
-            last = currentVal;
+            Node* temp = currentVal -> next;
+            currentVal -> next = temp -> next;
+
+            if (temp == last)
+            {
+                last = currentVal;
+            }
+
+            delete temp;
+            return true;
         }
 
-        delete temp;
-        return true;
+        currentVal = currentVal -> next;
     }
 
     return false;
