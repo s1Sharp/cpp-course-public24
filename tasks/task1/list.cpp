@@ -72,6 +72,7 @@ List::find(int _val)
         }
 
         currentVal = currentVal -> next;
+        
     }
 
     return nullptr;
