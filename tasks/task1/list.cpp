@@ -1,64 +1,103 @@
 #include "list.h"
+#include <iostream>
 
+List::List() : first(nullptr), last(nullptr) {}
 
-List::List()
-{
-
+bool List::is_empty() {
+    return first == nullptr;
 }
 
-
-bool
-List::is_empty()
-{
-
+void List::clear() {
+    while (first != nullptr) {
+        Node* temp = first;
+        first = first->next;
+        delete temp;
+    }
+    last = nullptr;
 }
 
-
-void
-List::clear()
-{
-
+void List::push_front(int _val) {
+    Node* newNode = new Node(_val);
+    if (is_empty()) {
+        first = last = newNode;
+    } else {
+        newNode->next = first;
+        first = newNode;
+    }
 }
 
-
-
-void
-List::push_front(int _val)
-{
-
+void List::push_back(int _val) {
+    Node* newNode = new Node(_val);
+    if (is_empty()) {
+        first = last = newNode;
+    } else {
+        last->next = newNode;
+        last = newNode;
+    }
 }
 
-
-void
-List::push_back(int _val)
-{
-
+Node* List::find(int _val) {
+    Node* current = first;
+    while (current != nullptr) {
+        if (current->val == _val) {
+            return current;
+        }
+        current = current->next;
+    }
+    return nullptr;
 }
 
+void List::remove_front() {
+    if (is_empty()) return;
 
-Node*
-List::find(int _val)
-{
+    Node* temp = first;
+    first = first->next;
+    delete temp;
 
+    if (first == nullptr) {
+        last = nullptr;
+    }
 }
 
+void List::remove_back() {
+    if (is_empty()) return;
 
-void
-List::remove_front()
-{
+    if (first == last) {
+        delete first;
+        first = last = nullptr;
+        return;
+    }
 
+    Node* current = first;
+    while (current->next != last) {
+        current = current->next;
+    }
+
+    delete last;
+    last = current;
+    last->next = nullptr;
 }
 
+bool List::remove(const Node* _node) {
+    if (is_empty() || _node == nullptr) return false;
 
-void
-List::remove_back()
-{
+    if (first == _node) {
+        remove_front();
+        return true;
+    }
 
-}
+    Node* current = first;
+    while (current->next != nullptr && current->next != _node) {
+        current = current->next; //Следующий узел (current->next) существует (не равен nullptr). Следующий узел (current->next) не является удаляемым узлом (_node).
+    } //Перемещает указатель current на следующий узел в списке.
 
+    if (current->next == nullptr) return false;
 
-bool
-List::remove(const Node* _node)
-{
-
+    Node* temp = current->next;
+    current->next = temp->next; //Обновляет ссылку next у узла current, чтобы "пропустить" удаляемый узел temp.
+    if (temp == last) {
+        last = current; //Если удаляемый узел был последним, обновляет указатель last на узел current
+    }
+    delete temp;
+    return true;
 }
