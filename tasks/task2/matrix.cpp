@@ -1,8 +1,8 @@
 #include <stdexcept>
-#include <cstring> // Для std::memcpy
+#include <cstring> 
 #include "matrix.h"
 
-// Реализация RowMatrix
+
 
 Matrix::RowMatrix::RowMatrix(double *array, size_t size)
     : _array(array), _size(size) {}
@@ -23,7 +23,7 @@ double &Matrix::RowMatrix::operator[](size_t j) {
 
 Matrix::RowMatrix::~RowMatrix() {}
 
-// Реализация Matrix
+
 
 Matrix::Matrix() : _rows(0), _cols(0), _array(nullptr) {}
 
