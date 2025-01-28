@@ -1,74 +1,105 @@
 #include <stdexcept>
-
+#include <cstring> 
 #include "matrix.h"
 
-using namespace std;
-using RowMatrix = Matrix::RowMatrix;
 
-RowMatrix::RowMatrix (double *array, size_t size) {
 
+Matrix::RowMatrix::RowMatrix(double *array, size_t size)
+    : _array(array), _size(size) {}
+
+const double &Matrix::RowMatrix::operator[](size_t j) const {
+    if (j >= _size) {
+        throw std::out_of_range("Column index out of range");
+    }
+    return _array[j];
 }
 
-const double & RowMatrix::operator[] (size_t j) const {
-
+double &Matrix::RowMatrix::operator[](size_t j) {
+    if (j >= _size) {
+        throw std::out_of_range("Column index out of range");
+    }
+    return _array[j];
 }
 
-double & RowMatrix::operator[] (size_t j) {
+Matrix::RowMatrix::~RowMatrix() {}
 
+
+
+Matrix::Matrix() : _rows(0), _cols(0), _array(nullptr) {}
+
+Matrix::Matrix(size_t r, size_t c) : _rows(r), _cols(c) {
+    _array = new double[_rows * _cols]();
 }
 
-RowMatrix::~RowMatrix(){}
-
-
-
-Matrix::Matrix() {
-
+Matrix::Matrix(const Matrix &copy_from)
+    : _rows(copy_from._rows), _cols(copy_from._cols) {
+    _array = new double[_rows * _cols];
+    std::memcpy(_array, copy_from._array, _rows * _cols * sizeof(double));
 }
 
-Matrix::Matrix(size_t r, size_t c): _rows(r), _cols(c) {
-
+Matrix &Matrix::operator=(const Matrix &copy_from) {
+    if (this == &copy_from) {
+        return *this;
+    }
+    delete[] _array;
+    _rows = copy_from._rows;
+    _cols = copy_from._cols;
+    _array = new double[_rows * _cols];
+    std::memcpy(_array, copy_from._array, _rows * _cols * sizeof(double));
+    return *this;
 }
 
-Matrix::Matrix(const Matrix & copy_from) {
-
+const Matrix::RowMatrix Matrix::operator[](size_t row_num) const {
+    if (row_num >= _rows) {
+        throw std::out_of_range("Row index out of range");
+    }
+    return RowMatrix(_array + row_num * _cols, _cols);
 }
 
-Matrix& Matrix::operator=(const Matrix & move_from) {
-
+Matrix::RowMatrix Matrix::operator[](size_t row_num) {
+    if (row_num >= _rows) {
+        throw std::out_of_range("Row index out of range");
+    }
+    return RowMatrix(_array + row_num * _cols, _cols);
 }
 
-const RowMatrix Matrix::operator[] (size_t row_num) const {
-
+Matrix &Matrix::operator*=(double k) {
+    for (size_t i = 0; i < _rows * _cols; ++i) {
+        _array[i] *= k;
+    }
+    return *this;
 }
 
-RowMatrix Matrix::operator[] (size_t row_num) {
-
+Matrix Matrix::operator*(double k) {
+    Matrix result(*this);
+    result *= k;
+    return result;
 }
 
-Matrix& Matrix::operator*= (double k) {
-
+bool Matrix::operator==(Matrix &matrix) {
+    if (_rows != matrix._rows || _cols != matrix._cols) {
+        return false;
+    }
+    for (size_t i = 0; i < _rows * _cols; ++i) {
+        if (_array[i] != matrix._array[i]) {
+            return false;
+        }
+    }
+    return true;
 }
 
-Matrix Matrix::operator* (double k) {
-
-}
-
-bool Matrix::operator== (Matrix & matrix) {
-
-}
-
-bool Matrix::operator!= (Matrix & matrix) {
-
+bool Matrix::operator!=(Matrix &matrix) {
+    return !(*this == matrix);
 }
 
 size_t Matrix::cols() const {
-
+    return _cols;
 }
 
 size_t Matrix::rows() const {
-
+    return _rows;
 }
 
 Matrix::~Matrix() {
-
+    delete[] _array;
 }
