@@ -80,7 +80,7 @@ bool Matrix::operator== (Matrix & matrix) {
         if (_array[i] != matrix._array[i]) {
             return false;
         }
-        return true;
+    return true;
     }
 }
 
