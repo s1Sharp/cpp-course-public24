@@ -88,15 +88,15 @@ bool List::remove(const Node* _node) {
 
     Node* current = first;
     while (current->next != nullptr && current->next != _node) {
-        current = current->next;
-    }
+        current = current->next; //Следующий узел (current->next) существует (не равен nullptr). Следующий узел (current->next) не является удаляемым узлом (_node).
+    } //Перемещает указатель current на следующий узел в списке.
 
     if (current->next == nullptr) return false;
 
     Node* temp = current->next;
-    current->next = temp->next;
+    current->next = temp->next; //Обновляет ссылку next у узла current, чтобы "пропустить" удаляемый узел temp.
     if (temp == last) {
-        last = current;
+        last = current; //Если удаляемый узел был последним, обновляет указатель last на узел current
     }
     delete temp;
     return true;
