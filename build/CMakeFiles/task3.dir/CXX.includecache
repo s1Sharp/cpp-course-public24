@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/cpp-course-public24/tasks/task3/bin_search.hpp
+
+/workspaces/cpp-course-public24/tasks/task3/main.cpp
+bin_search.hpp
+/workspaces/cpp-course-public24/tasks/task3/bin_search.hpp
+iostream
+/workspaces/cpp-course-public24/tasks/task3/iostream
+

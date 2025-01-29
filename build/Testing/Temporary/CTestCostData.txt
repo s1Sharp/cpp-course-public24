@@ -1,0 +1,8 @@
+CORRECTNESS.just_works 1 0.00462543
+CORRECTNESS.simple_small_array 1 0.00221989
+CORRECTNESS.simple_test 1 0.00396986
+CORRECTNESS.with_no_value 1 0.00343305
+CORNER.less_than_first 1 0.00230553
+CORNER.greater_than_all 1 0.00348889
+CORNER.nullptr_return_nullptr 1 0.00477027
+---
