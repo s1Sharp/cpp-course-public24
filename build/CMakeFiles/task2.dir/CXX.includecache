@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/cpp-course-public24/tasks/task2/matrix.cpp
+stdexcept
+-
+cstring
+-
+matrix.h
+/workspaces/cpp-course-public24/tasks/task2/matrix.h
+
+/workspaces/cpp-course-public24/tasks/task2/matrix.h
+cstdint
+-
+
