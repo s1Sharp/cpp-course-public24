@@ -1,0 +1,185 @@
+Start testing: Jan 29 04:19 UTC
+----------------------------------------------------------
+1/7 Testing: CORRECTNESS.just_works
+1/7 Test: CORRECTNESS.just_works
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CORRECTNESS.just_works" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CORRECTNESS.just_works" start time: Jan 29 04:19 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CORRECTNESS.just_works
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CORRECTNESS
+[ RUN      ] CORRECTNESS.just_works
+[       OK ] CORRECTNESS.just_works (0 ms)
+[----------] 1 test from CORRECTNESS (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CORRECTNESS.just_works" end time: Jan 29 04:19 UTC
+"CORRECTNESS.just_works" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: CORRECTNESS.simple_small_array
+2/7 Test: CORRECTNESS.simple_small_array
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CORRECTNESS.simple_small_array" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CORRECTNESS.simple_small_array" start time: Jan 29 04:19 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CORRECTNESS.simple_small_array
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CORRECTNESS
+[ RUN      ] CORRECTNESS.simple_small_array
+[       OK ] CORRECTNESS.simple_small_array (0 ms)
+[----------] 1 test from CORRECTNESS (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CORRECTNESS.simple_small_array" end time: Jan 29 04:19 UTC
+"CORRECTNESS.simple_small_array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: CORRECTNESS.simple_test
+3/7 Test: CORRECTNESS.simple_test
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CORRECTNESS.simple_test" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CORRECTNESS.simple_test" start time: Jan 29 04:19 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CORRECTNESS.simple_test
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CORRECTNESS
+[ RUN      ] CORRECTNESS.simple_test
+[       OK ] CORRECTNESS.simple_test (0 ms)
+[----------] 1 test from CORRECTNESS (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CORRECTNESS.simple_test" end time: Jan 29 04:19 UTC
+"CORRECTNESS.simple_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: CORRECTNESS.with_no_value
+4/7 Test: CORRECTNESS.with_no_value
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CORRECTNESS.with_no_value" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CORRECTNESS.with_no_value" start time: Jan 29 04:19 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CORRECTNESS.with_no_value
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CORRECTNESS
+[ RUN      ] CORRECTNESS.with_no_value
+[       OK ] CORRECTNESS.with_no_value (0 ms)
+[----------] 1 test from CORRECTNESS (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CORRECTNESS.with_no_value" end time: Jan 29 04:19 UTC
+"CORRECTNESS.with_no_value" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: CORNER.less_than_first
+5/7 Test: CORNER.less_than_first
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CORNER.less_than_first" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CORNER.less_than_first" start time: Jan 29 04:19 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CORNER.less_than_first
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CORNER
+[ RUN      ] CORNER.less_than_first
+[       OK ] CORNER.less_than_first (0 ms)
+[----------] 1 test from CORNER (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CORNER.less_than_first" end time: Jan 29 04:19 UTC
+"CORNER.less_than_first" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: CORNER.greater_than_all
+6/7 Test: CORNER.greater_than_all
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CORNER.greater_than_all" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CORNER.greater_than_all" start time: Jan 29 04:19 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CORNER.greater_than_all
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CORNER
+[ RUN      ] CORNER.greater_than_all
+[       OK ] CORNER.greater_than_all (0 ms)
+[----------] 1 test from CORNER (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CORNER.greater_than_all" end time: Jan 29 04:19 UTC
+"CORNER.greater_than_all" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: CORNER.nullptr_return_nullptr
+7/7 Test: CORNER.nullptr_return_nullptr
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CORNER.nullptr_return_nullptr" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CORNER.nullptr_return_nullptr" start time: Jan 29 04:19 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CORNER.nullptr_return_nullptr
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CORNER
+[ RUN      ] CORNER.nullptr_return_nullptr
+[       OK ] CORNER.nullptr_return_nullptr (0 ms)
+[----------] 1 test from CORNER (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CORNER.nullptr_return_nullptr" end time: Jan 29 04:19 UTC
+"CORNER.nullptr_return_nullptr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 29 04:19 UTC
