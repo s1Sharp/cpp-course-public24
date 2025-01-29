@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/cpp-course-public24/hw5taylor/main.cpp
+iostream
+-
+cmath
+-
+sinus_taylor.hpp
+/workspaces/cpp-course-public24/hw5taylor/sinus_taylor.hpp
+
+/workspaces/cpp-course-public24/hw5taylor/sinus_taylor.cpp
+sinus_taylor.hpp
+/workspaces/cpp-course-public24/hw5taylor/sinus_taylor.hpp
+iostream
+-
+cmath
+-
+
+/workspaces/cpp-course-public24/hw5taylor/sinus_taylor.hpp
+

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/SinusTaylor.dir/main.cpp.o CMakeFiles/SinusTaylor.dir/sinus_taylor.cpp.o  -o SinusTaylor 
