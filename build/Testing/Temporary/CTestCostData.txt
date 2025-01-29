@@ -1,0 +1,12 @@
+CustomMatrix.CheckEmptyMatrix 2 0.00106019
+CustomMatrix.CheckEmptyAssignment 2 0.00120109
+CustomMatrix.CheckOutOfRange 2 0.00100344
+CustomMatrix.CheckOutOfRangeConst 2 0.000977241
+CustomMatrix.CheckAssignment 2 0.00103468
+CustomMatrix.CheckCopyConstructor 2 0.00122432
+CustomMatrix.CheckDefaultMatrix 2 0.000969291
+CustomMatrix.CheckCompareMatrix 2 0.00117844
+CustomMatrixProxyClass.CheckEmptyMatrixProxy 2 0.000926339
+CustomMatrixProxyClass.CheckEmptyMatrixProxyConst 2 0.00106874
+CustomMatrixProxyClass.CheckMultiplyByNumber 2 0.00114291
+---

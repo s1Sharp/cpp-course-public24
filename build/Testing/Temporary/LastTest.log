@@ -1,0 +1,289 @@
+Start testing: Jan 29 04:16 UTC
+----------------------------------------------------------
+1/11 Testing: CustomMatrix.CheckEmptyMatrix
+1/11 Test: CustomMatrix.CheckEmptyMatrix
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrix.CheckEmptyMatrix" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrix.CheckEmptyMatrix" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrix.CheckEmptyMatrix
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrix
+[ RUN      ] CustomMatrix.CheckEmptyMatrix
+[       OK ] CustomMatrix.CheckEmptyMatrix (0 ms)
+[----------] 1 test from CustomMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrix.CheckEmptyMatrix" end time: Jan 29 04:16 UTC
+"CustomMatrix.CheckEmptyMatrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: CustomMatrix.CheckEmptyAssignment
+2/11 Test: CustomMatrix.CheckEmptyAssignment
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrix.CheckEmptyAssignment" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrix.CheckEmptyAssignment" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrix.CheckEmptyAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrix
+[ RUN      ] CustomMatrix.CheckEmptyAssignment
+[       OK ] CustomMatrix.CheckEmptyAssignment (0 ms)
+[----------] 1 test from CustomMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrix.CheckEmptyAssignment" end time: Jan 29 04:16 UTC
+"CustomMatrix.CheckEmptyAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: CustomMatrix.CheckOutOfRange
+3/11 Test: CustomMatrix.CheckOutOfRange
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrix.CheckOutOfRange" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrix.CheckOutOfRange" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrix.CheckOutOfRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrix
+[ RUN      ] CustomMatrix.CheckOutOfRange
+[       OK ] CustomMatrix.CheckOutOfRange (0 ms)
+[----------] 1 test from CustomMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrix.CheckOutOfRange" end time: Jan 29 04:16 UTC
+"CustomMatrix.CheckOutOfRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: CustomMatrix.CheckOutOfRangeConst
+4/11 Test: CustomMatrix.CheckOutOfRangeConst
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrix.CheckOutOfRangeConst" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrix.CheckOutOfRangeConst" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrix.CheckOutOfRangeConst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrix
+[ RUN      ] CustomMatrix.CheckOutOfRangeConst
+[       OK ] CustomMatrix.CheckOutOfRangeConst (0 ms)
+[----------] 1 test from CustomMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrix.CheckOutOfRangeConst" end time: Jan 29 04:16 UTC
+"CustomMatrix.CheckOutOfRangeConst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: CustomMatrix.CheckAssignment
+5/11 Test: CustomMatrix.CheckAssignment
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrix.CheckAssignment" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrix.CheckAssignment" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrix.CheckAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrix
+[ RUN      ] CustomMatrix.CheckAssignment
+[       OK ] CustomMatrix.CheckAssignment (0 ms)
+[----------] 1 test from CustomMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrix.CheckAssignment" end time: Jan 29 04:16 UTC
+"CustomMatrix.CheckAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: CustomMatrix.CheckCopyConstructor
+6/11 Test: CustomMatrix.CheckCopyConstructor
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrix.CheckCopyConstructor" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrix.CheckCopyConstructor" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrix.CheckCopyConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrix
+[ RUN      ] CustomMatrix.CheckCopyConstructor
+[       OK ] CustomMatrix.CheckCopyConstructor (0 ms)
+[----------] 1 test from CustomMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrix.CheckCopyConstructor" end time: Jan 29 04:16 UTC
+"CustomMatrix.CheckCopyConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: CustomMatrix.CheckDefaultMatrix
+7/11 Test: CustomMatrix.CheckDefaultMatrix
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrix.CheckDefaultMatrix" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrix.CheckDefaultMatrix" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrix.CheckDefaultMatrix
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrix
+[ RUN      ] CustomMatrix.CheckDefaultMatrix
+[       OK ] CustomMatrix.CheckDefaultMatrix (0 ms)
+[----------] 1 test from CustomMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrix.CheckDefaultMatrix" end time: Jan 29 04:16 UTC
+"CustomMatrix.CheckDefaultMatrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: CustomMatrix.CheckCompareMatrix
+8/11 Test: CustomMatrix.CheckCompareMatrix
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrix.CheckCompareMatrix" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrix.CheckCompareMatrix" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrix.CheckCompareMatrix
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrix
+[ RUN      ] CustomMatrix.CheckCompareMatrix
+[       OK ] CustomMatrix.CheckCompareMatrix (0 ms)
+[----------] 1 test from CustomMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrix.CheckCompareMatrix" end time: Jan 29 04:16 UTC
+"CustomMatrix.CheckCompareMatrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: CustomMatrixProxyClass.CheckEmptyMatrixProxy
+9/11 Test: CustomMatrixProxyClass.CheckEmptyMatrixProxy
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrixProxyClass.CheckEmptyMatrixProxy" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrixProxyClass.CheckEmptyMatrixProxy" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrixProxyClass.CheckEmptyMatrixProxy
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrixProxyClass
+[ RUN      ] CustomMatrixProxyClass.CheckEmptyMatrixProxy
+[       OK ] CustomMatrixProxyClass.CheckEmptyMatrixProxy (0 ms)
+[----------] 1 test from CustomMatrixProxyClass (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrixProxyClass.CheckEmptyMatrixProxy" end time: Jan 29 04:16 UTC
+"CustomMatrixProxyClass.CheckEmptyMatrixProxy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: CustomMatrixProxyClass.CheckEmptyMatrixProxyConst
+10/11 Test: CustomMatrixProxyClass.CheckEmptyMatrixProxyConst
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrixProxyClass.CheckEmptyMatrixProxyConst" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrixProxyClass.CheckEmptyMatrixProxyConst" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrixProxyClass.CheckEmptyMatrixProxyConst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrixProxyClass
+[ RUN      ] CustomMatrixProxyClass.CheckEmptyMatrixProxyConst
+[       OK ] CustomMatrixProxyClass.CheckEmptyMatrixProxyConst (0 ms)
+[----------] 1 test from CustomMatrixProxyClass (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrixProxyClass.CheckEmptyMatrixProxyConst" end time: Jan 29 04:16 UTC
+"CustomMatrixProxyClass.CheckEmptyMatrixProxyConst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: CustomMatrixProxyClass.CheckMultiplyByNumber
+11/11 Test: CustomMatrixProxyClass.CheckMultiplyByNumber
+Command: "/workspaces/cpp-course-public24/build/tests_run" "--gtest_filter=CustomMatrixProxyClass.CheckMultiplyByNumber" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/cpp-course-public24/build
+"CustomMatrixProxyClass.CheckMultiplyByNumber" start time: Jan 29 04:16 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CustomMatrixProxyClass.CheckMultiplyByNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomMatrixProxyClass
+[ RUN      ] CustomMatrixProxyClass.CheckMultiplyByNumber
+[       OK ] CustomMatrixProxyClass.CheckMultiplyByNumber (0 ms)
+[----------] 1 test from CustomMatrixProxyClass (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CustomMatrixProxyClass.CheckMultiplyByNumber" end time: Jan 29 04:16 UTC
+"CustomMatrixProxyClass.CheckMultiplyByNumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 29 04:16 UTC
