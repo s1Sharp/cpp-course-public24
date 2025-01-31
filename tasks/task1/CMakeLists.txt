@@ -15,7 +15,7 @@ add_executable(${PROJECT_NAME}
   ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/list_internal.cpp 
   ${CMAKE_CURRENT_SOURCE_DIR}/list.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/list.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/list.hpp
 )
 
 ################################
@@ -39,7 +39,7 @@ add_executable(
   tests_run
   ${CMAKE_CURRENT_SOURCE_DIR}/list_internal.cpp 
   ${CMAKE_CURRENT_SOURCE_DIR}/list.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/list.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/list.hpp
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_main.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_list.cpp
 
