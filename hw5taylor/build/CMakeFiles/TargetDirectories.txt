@@ -1,0 +1,3 @@
+/workspaces/cpp-course-public24/hw5taylor/build/CMakeFiles/rebuild_cache.dir
+/workspaces/cpp-course-public24/hw5taylor/build/CMakeFiles/edit_cache.dir
+/workspaces/cpp-course-public24/hw5taylor/build/CMakeFiles/SinusTaylor.dir
