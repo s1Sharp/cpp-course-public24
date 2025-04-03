@@ -1,0 +1,5 @@
+*.o
+*.a
+notify_example/example
+vector_path/vector_path
+figure_example/build/*
