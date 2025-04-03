@@ -1,0 +1,1 @@
+void simple(int n, int k);
